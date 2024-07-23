@@ -1,0 +1,37 @@
+/* Estilos generales para todas las secciones contenedor */
+.contenedor {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.texto {
+    flex: 1;
+    text-align: justify;
+    line-height: 35px;
+    margin: 30px;
+}
+
+.texto>a>img {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.texto li {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.imagen-duenia {
+    margin-left: 40px;
+}
+
+.imagen-duenia img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
